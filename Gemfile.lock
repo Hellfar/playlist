@@ -1,0 +1,48 @@
+GEM
+  specs:
+    atk (3.0.8)
+      glib2 (= 3.0.8)
+    cairo (1.15.2)
+      pkg-config (>= 1.1.5)
+    cairo-gobject (3.0.8)
+      cairo
+      glib2 (= 3.0.8)
+    gdk3 (3.0.8)
+      cairo-gobject (= 3.0.8)
+      gdk_pixbuf2 (= 3.0.8)
+      gobject-introspection (= 3.0.8)
+      pango (= 3.0.8)
+    gdk_pixbuf2 (3.0.8)
+      glib2 (= 3.0.8)
+    gio2 (3.0.8)
+      glib2 (= 3.0.8)
+      gobject-introspection (= 3.0.8)
+    glib2 (3.0.8)
+      pkg-config
+    gobject-introspection (3.0.8)
+      glib2 (= 3.0.8)
+    gtk3 (3.0.8)
+      atk (= 3.0.8)
+      gdk3 (= 3.0.8)
+      gdk_pixbuf2 (= 3.0.8)
+      gio2 (= 3.0.8)
+      glib2 (= 3.0.8)
+      gobject-introspection (= 3.0.8)
+      pango (= 3.0.8)
+    pango (3.0.8)
+      cairo (>= 1.14.0)
+      glib2 (= 3.0.8)
+    pkg-config (1.1.7)
+    webkit-gtk (3.0.8)
+      gobject-introspection (= 3.0.8)
+      gtk3 (= 3.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gtk3
+  webkit-gtk
+
+BUNDLED WITH
+   1.12.5
